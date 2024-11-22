@@ -52,19 +52,7 @@
 
 .decorated-zone {
   position: relative;
-  min-block-size: 94.7vh;
-}
-
-@media (width < 1024px) {
-  .decorated-zone {
-    min-block-size: 96vh;
-  }
-}
-
-@media (width < 768px) {
-  .decorated-zone {
-    min-block-size: 97vh;
-  }
+  min-block-size: 100vh;
 }
 
 .decorated-zone::before {
@@ -127,7 +115,7 @@
 .header__theme-menu {
   justify-self: center;
   align-self: self-start;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 @media (width < 1024px) {
