@@ -5,23 +5,10 @@
   background-size: cover;
   background-attachment: fixed;
   margin: 0 auto;
-  padding: 20px;
   color: var(--text-color);
   font-family: "IBM Plex mono";
   font-size: 18px;
   font-weight: 400;
-}
-
-@media (width < 1024px) {
-  .page {
-    padding: 20px;
-  }
-}
-
-@media (width < 768px) {
-  .page {
-    padding: 10px;
-  }
 }
 
 .title-decor {
@@ -61,6 +48,9 @@
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .decorated-zone {
@@ -87,8 +77,8 @@
   border-right: 1px solid var(--accent-color);
   width: 25px;
   height: 25px;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
 }
 
 .decorated-zone::after {
@@ -98,7 +88,8 @@
   border-left: 1px solid var(--accent-color);
   width: 25px;
   height: 25px;
-  bottom: 0;
+  bottom: 20px;
+  left: 20px;
 }
 
 .rec-icon {
@@ -108,8 +99,8 @@
   gap: 10px;
   margin: 2px 10px 0 0;
   color: var(--accent-color);
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
 }
 
 .rec-icon::after {
@@ -241,6 +232,8 @@
   grid-template-columns: 314px 1fr;
   column-gap: 20px;
   margin: 81px 0 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (width < 1024px) {
@@ -260,6 +253,8 @@
 
 .second__section {
   margin: 60px 0 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .second__section-title {
@@ -299,6 +294,8 @@
   grid-template-columns: 314px 1fr;
   column-gap: 20px;
   margin: 60px 0 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (width < 1024px) {
@@ -327,6 +324,8 @@
 
 .gallery__section {
   margin: 60px 0 80px 0;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .gallery__section-title {
@@ -394,6 +393,9 @@
 
 .footer {
   display: grid;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .footer__title {
