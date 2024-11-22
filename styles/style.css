@@ -140,7 +140,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin-top: -5px;
+    margin: 0;
     padding-right: 10px;
   }
 }
@@ -257,7 +257,7 @@
 
 @media (width < 768px) {
   .first__section {
-    margin: 35px 0 0;
+    margin: 40px 0 0;
     grid-template-columns: 1fr;
     padding-left: 10px;
     padding-right: 10px;
