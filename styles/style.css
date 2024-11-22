@@ -140,7 +140,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin: 0;
+    margin-top: -10px;
     padding-right: 10px;
   }
 }
