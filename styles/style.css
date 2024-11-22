@@ -140,7 +140,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin: 0;
+    margin-top: 5px;
     padding-right: 10px;
   }
 }
@@ -387,7 +387,7 @@
 
 @media (width < 768px) {
   .gallery__section {
-    margin: 30px 0 45px;
+    margin: 30px 0 35px;
     padding-left: 10px;
     padding-right: 10px;
   }
