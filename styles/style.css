@@ -209,7 +209,7 @@
 
 @media (width < 768px) {
   .header__title {
-    margin: 20px 0 0 5px;
+    margin: 20px 0 -10px 10px;
     font-size: var(--title-font-size-mobile);
   }
 }
@@ -235,6 +235,7 @@
     padding-right: 50px;
     max-width: 355px;
     margin-right: 10px;
+    margin-top: -15px;
   }
 }
 
