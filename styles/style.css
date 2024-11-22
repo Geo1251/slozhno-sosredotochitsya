@@ -78,6 +78,13 @@
   right: 20px;
 }
 
+@media (width < 768px) {
+  .decorated-zone::before {
+    top: 10px;
+    right: 10px;
+  }
+}
+
 .decorated-zone::after {
   content: "";
   position: absolute;
@@ -87,6 +94,13 @@
   height: 25px;
   bottom: 20px;
   left: 20px;
+}
+
+@media (width < 768px) {
+  .decorated-zone::after {
+    bottom: 10px;
+    left: 10px;
+  }
 }
 
 .rec-icon {
