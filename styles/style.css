@@ -255,19 +255,21 @@
   display: grid;
   grid-template-columns: 314px 1fr;
   column-gap: 20px;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 @media (width < 1024px) {
   .intro__section {
     grid-template-columns: 236px 1fr;
     margin: 0;
+    padding-top: 15px;
   }
 }
 
 @media (width < 768px) {
   .intro__section {
     grid-template-columns: 1fr;
+    padding-top: 0;
   }
 }
 
