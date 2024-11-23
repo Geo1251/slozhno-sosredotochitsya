@@ -204,7 +204,7 @@
 
 @media (width < 1024px) {
   .header__title {
-    margin: 20px 0 0 0;
+    margin: 10px 0 0 0;
   }
 }
 
@@ -228,6 +228,7 @@
     padding-right: 50px;
     max-width: 364px;
     margin-right: 20px;
+    margin-top: -14px;
   }
 }
 
