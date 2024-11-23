@@ -12,7 +12,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --accent-color: #FF8DCB;
+    --accent-color: #353430;
+    --accent-background: #FF8DCB;
     --accent-text: #353430;
     --background-image: url(../images/cover-image-light.png);
     --text-color: #353430;
