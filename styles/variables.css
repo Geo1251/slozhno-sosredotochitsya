@@ -1,5 +1,6 @@
 :root {
   --accent-color: #FF0070;
+  --accent-color-transparent: rgba(255, 0, 112, 0.5);
   --accent-background: #FF0070;
   --accent-text: #000028;
   --background-image: url(../images/cover-image-dark.png);
