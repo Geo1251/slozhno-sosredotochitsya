@@ -3,23 +3,10 @@
   --accent-background: #FF0070;
   --accent-text: #000028;
   --background-image: url(../images/cover-image-dark.png);
+  --background-color: #000028;
   --text-color: #F1B2CE;
   --title-color: #DB00FF;
   --title-shadow: 4px 4px 0 var(--accent-background);
   --rec-icon-display: flex;
   --rec-icon-after-display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --accent-color: #FF0070;
-    --accent-background: #FF0070;
-    --accent-text: #000028;
-    --background-image: url(../images/cover-image-dark.png);
-    --text-color: #F1B2CE;
-    --title-color: #DB00FF;
-    --title-shadow: 4px 4px 0 var(--accent-background);
-    --rec-icon-display: flex;
-    --rec-icon-after-display: block;
-  }
 }

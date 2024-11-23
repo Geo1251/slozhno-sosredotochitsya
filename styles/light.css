@@ -3,6 +3,7 @@
   --accent-background: #FF8DCB;
   --accent-text: #353430;
   --background-image: url(../images/cover-image-light.png);
+  --background-color: #FFF1F7;
   --text-color: #353430;
   --title-color: #FFC2E6;
   --title-shadow: 4px 4px 0 var(--accent-background);
@@ -16,6 +17,7 @@
     --accent-background: #FF8DCB;
     --accent-text: #353430;
     --background-image: url(../images/cover-image-light.png);
+    --background-color: #FFF1F7;
     --text-color: #353430;
     --title-color: #FFC2E6;
     --title-shadow: 4px 4px 0 var(--accent-background);
