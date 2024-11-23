@@ -130,7 +130,7 @@
   .header__theme-menu {
     justify-self: end;
     align-self: center;
-    margin: 10px 0 0;
+    margin: 20px 0 0;
     padding-right: 20px;
   }
 }
@@ -138,6 +138,7 @@
 @media (width < 768px) {
   .header__theme-menu {
     padding-right: 10px;
+    margin: 10px 0 0;
   }
 }
 
@@ -210,7 +211,6 @@
   font-weight: 700;
   line-height: 130%;
   margin-right: 20px;
-  margin-top: 0;
 }
 
 @media (width < 1024px) {
