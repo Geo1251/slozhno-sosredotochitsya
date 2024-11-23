@@ -138,7 +138,7 @@
 @media (width < 768px) {
   .header__theme-menu {
     padding-right: 10px;
-    margin: 10px 0 0;
+    margin: 5px 0 0;
   }
 }
 
@@ -186,7 +186,7 @@
   align-self: self-start;
   font-size: var(--title-font-size-desktop);
   color: var(--title-color);
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   font-weight: 700;
   line-height: 82.5%;
   text-shadow: var(--title-shadow);
