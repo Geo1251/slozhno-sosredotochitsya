@@ -260,6 +260,7 @@
 @media (width < 768px) {
   .intro__section {
     grid-template-columns: 1fr;
+    margin-top: 10px;
   }
 }
 
@@ -380,6 +381,7 @@
 .footer {
   display: grid;
   min-block-size: 100vh;
+  margin-top: 65px;
 }
 
 .footer__title {
