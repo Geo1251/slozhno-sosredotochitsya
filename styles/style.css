@@ -64,7 +64,7 @@
   grid-template-rows: auto max-content auto;
   align-items: center;
   min-block-size: 100vh;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 @media (width < 768px) {
@@ -387,12 +387,12 @@
 .footer {
   display: grid;
   min-block-size: 100vh;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 @media (width < 768px) {
   .footer {
-    margin-top: 35px;
+    margin-top: 30px;
   }
 }
 
