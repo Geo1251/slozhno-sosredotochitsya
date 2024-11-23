@@ -399,7 +399,7 @@
 
 @media (width < 768px) {
   .footer {
-    margin-top: 12px;
+    margin-top: 0;
   }
 }
 
