@@ -389,7 +389,8 @@
 
 @media (width < 768px) {
   .footer {
-    margin-top: 15px;
+    margin: 0;
+    padding-top: 15px;
   }
 }
 
