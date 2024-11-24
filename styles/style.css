@@ -376,6 +376,7 @@
     flex-direction: column;
     gap: 5px;
     margin-top: -10px;
+    margin-bottom: 0;
   }
 }
 
@@ -390,7 +391,6 @@
 @media (width < 768px) {
   .footer {
     margin: 0;
-    padding-top: 15px;
   }
 }
 
