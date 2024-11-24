@@ -381,12 +381,6 @@
     gap: 5px;
     margin: 0;
   }
-
-  .gallery__section-image {
-    object-fit: none;
-    object-position: none;
-    height: auto;
-  }
 }
 
 /* Footer */
