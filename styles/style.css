@@ -245,6 +245,7 @@
   font-weight: 700;
   line-height: 130%;
   margin-right: 20px;
+  margin-top: -10px;
 }
 
 @media (width < 1024px) {
