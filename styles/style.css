@@ -235,7 +235,6 @@
 
 @media (width < 768px) {
   .header__title {
-    margin: 5px 0 0 5px;
     font-size: var(--title-font-size-mobile);
   }
 }
