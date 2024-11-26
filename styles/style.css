@@ -118,13 +118,12 @@
   grid-template-rows: auto min-content auto;
   align-items: center;
   min-block-size: 100vh;
-  min-height: 1024px;
+  min-height: 668px;
 }
 
 @media (width < 768px) {
   .header {
     margin-bottom: 40px;
-    min-height: 668px;
   }
 }
 
@@ -434,14 +433,13 @@
 .footer {
   display: grid;
   min-block-size: 100vh;
-  min-height: 1024px;
+  min-height: 668px;
   margin-top: 55px;
 }
 
 @media (width < 768px) {
   .footer {
     margin: 0;
-    min-height: 668px;
   }
 }
 
