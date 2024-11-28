@@ -249,7 +249,6 @@
 
 .header__paragraph {
   justify-self: end;
-  height: 71px;
   max-width: 491px;
   font-weight: 700;
   line-height: 130%;
@@ -260,7 +259,6 @@
 @media (width < 1024px) {
   .header__paragraph {
     padding-right: 50px;
-    height: 117px;
     max-width: 364px;
     margin-right: 20px;
     margin-top: -140px;
